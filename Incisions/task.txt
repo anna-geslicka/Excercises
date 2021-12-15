@@ -1,0 +1,29 @@
+You have been asked by the medical institute to prepare a program, that for the given samples (cluster density), will find the epicenters of the "Lateral Sclerosis", 
+and then determine the ideal surgical incision sites.
+Epicentre is the sample whose two adjacent samples have the lower incidence density. Neither the first sample nor the last sample can be considered the epicenter. 
+Depending on the patient's condition, a certain number of incisions can be made' and it is assumed that each successive incision cannot be made closer than the previous one. 
+The answer to the task is the number of surgical incisions that can be made. 
+
+Example 1:  
+Number of possible incisions: 3
+Sample set: 4 2 3 1 9 6 5 2 1
+
+Answer: 2
+
+Example 2:  
+Number of possible incisions: 4
+Sample set: 9 2 3 3 2 1 7 2 1 1 6 1 6 0 2 4 5 2
+
+Answer: 3
+
+Example 3:  
+Number of possible strikes: 3
+Sample set: 6 4 3 4 2 1 4 2 8 1 0 
+
+Answer: 2
+
+Example 4:  
+Number of possible strikes: 2
+Sample set: 6 4 3 4 2 1 4 2 8 1 0 
+
+Answer: 2
